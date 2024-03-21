@@ -1,6 +1,5 @@
-import math
-
-maxValue = int(input('Enter max value of summation: '))
-
-multiple3 = maxValue % 3
-multiple5 =
+sumNum = 0
+for i in range(1, 1000):
+    if i % 3 == 0 or i % 5 == 0:
+        sumNum += i
+print(sumNum)
